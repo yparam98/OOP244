@@ -1,10 +1,0 @@
-
-In line number 6 of your output:
-The output should be:
-===========| Long Message***********
-But your output is: 
-===========| Long Message*nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-                           ^
----------------------------|
-Professor's character ASCII code: hex(2a), dec(42)
-un-matched character ASCII code: hex(6e), dec(110)
