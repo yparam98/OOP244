@@ -27,7 +27,7 @@
             <li> Workshop 7 </li>
             <li> Workshop 8 </li>
             <li> Workshop 9 </li>
-            <li> </li>
+            </br>
             <li> Milestone 1 </li>    
             <li> Milestone 2 </li>  
             <li> Milestone 3 </li>  
