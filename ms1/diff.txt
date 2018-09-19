@@ -1,0 +1,10 @@
+
+In line number 11 of your output:
+The output should be:
+(y)es/(n)o: y
+But your output is: 
+(y)es/(n)o: n
+            ^
+------------|
+Professor's character ASCII code: hex(79), dec(121)
+un-matched character ASCII code: hex(6e), dec(110)

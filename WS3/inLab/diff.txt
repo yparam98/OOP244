@@ -1,0 +1,10 @@
+
+In line number 17 of your output:
+The output should be:
+Given Name : Jane
+But your output is: 
+Given Name: Jane
+          ^
+----------|
+Professor's character ASCII code: hex(20), dec(32)
+un-matched character ASCII code: hex(3a), dec(58)

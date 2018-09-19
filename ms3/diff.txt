@@ -1,0 +1,10 @@
+
+In line number 65 of your output:
+The output should be:
+  s: 1235   |Jacket              |  12.35|  11|n/a       |  22|
+But your output is: 
+  s: 1235   |Jacket              |  13.96|  11|n/a       |  22|
+                                     ^
+-------------------------------------|
+Professor's character ASCII code: hex(32), dec(50)
+un-matched character ASCII code: hex(33), dec(51)

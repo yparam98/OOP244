@@ -1,0 +1,10 @@
+
+In line number 7 of your output:
+The output should be:
+Fraction d(2, 4); // d = 1/2
+But your output is: 
+Fraction d(2, 4); // d = 2/4
+                         ^
+-------------------------|
+Professor's character ASCII code: hex(31), dec(49)
+un-matched character ASCII code: hex(32), dec(50)

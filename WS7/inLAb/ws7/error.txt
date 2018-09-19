@@ -1,0 +1,13 @@
+Hero.cpp: In function ‘const sict::Hero& sict::operator*(const sict::Hero&, const sict::Hero&)’:
+Hero.cpp:117:11: error: passing ‘const sict::Hero’ as ‘this’ argument discards qualifiers [-fpermissive]
+    first-=secondHeroAttackStrength; //the problem is here...
+           ^~~~~~~~~~~~~~~~~~~~~~~~
+Hero.cpp:31:7: note:   in call to ‘void sict::Hero::operator-=(int)’
+  void Hero::operator-=(int attack)
+       ^~~~
+Hero.cpp:118:12: error: passing ‘const sict::Hero’ as ‘this’ argument discards qualifiers [-fpermissive]
+    second-=firstHeroAttackStrength; //and because same syntax, problem radiates to here as well...
+            ^~~~~~~~~~~~~~~~~~~~~~~
+Hero.cpp:31:7: note:   in call to ‘void sict::Hero::operator-=(int)’
+  void Hero::operator-=(int attack)
+       ^~~~

@@ -1,0 +1,96 @@
+OOP244 Workshop 1 Reflection
+
+
+Q: What is a namespace? Explain it's purpose
+
+A: A namespace is a scope for the entities it encloses. It is used to avoid using multiple and similar identifiers for different variables in a program. You use it like this: write "namespace", then put a name, then start curly bracket, insert your functions and variables now, then close the curly brackets. Now you have a namespace. You can "call" it with this: using namespace insert_namespace_name_here; This will call all the variables/functions within that specific namespace. To call a specific or individual variable/function within it, use this: using namespace_name_here::variable_name_here;. Then do whatever you need to with that variable/function. 
+
+
+Q: Why are header files needed? Explain.
+
+A: Header files are code "extensions" saved with .h as the file extensions. Why do we use it? Three prime reasons: code organization, ease of debugging, and prevention of anomalies. You can use it like this: open a new file, write a couple of variables, function prototypes, etc., save it as .h, then call it in your main code like this: #include "insert_name_of_header_file_here". Basically like #include <iostream>, except instead of the arrow quotes, use quotation marks, and instead of iostream, write the name of the header file. Also, keep the header file in the same location as where the code you are calling it from is located. Here's an example in C programming:
+
+main code
+********
+#include <stdio.h>
+#include <conio.h>
+#include "header.h" //link to header file
+void main ()
+{
+  int index;
+
+  printf("Please enter a number: ");
+  scanf("%d",&index);
+  int pizza = pi(index);
+  printf("%d",pizza);
+}
+
+header file
+*********
+int pi (num1)
+{
+  int num5;
+  num5=num1*2;
+  return (num5);
+}
+
+Q: In the instructions above, you were directed to compile only .cpp files but not the .h files. Explain why you should never compile header files.
+
+A: Well first of all, there is no reason to compile them, because the header file is only an "extension". Your actual code is you main code, the code where you are calling your header file. Secondly, the compiler will put the code in header file and code from the main code file that you are calling the header file from together, and if that was not enough, it will proceed to process the code in the header file and substitute THAT code into the main code file that you are calling the header file from. In essentials, it will mess up your code.
+
+
+Q: Explain why you should never include .cpp files in another file.
+
+A: Header files contain declarations, and C++ files contain definitions. Including a c++ file can cause duplication of definitions, which is bad.
+
+
+Q: Explain in your own words what have you learned on this workshop.
+
+A: In this workshop, I have learned: 
+	- how to create modules
+	- how to create namespaces
+	- how to include header files in another program
+	- how to break a program down into simple sections for easy debugging
+	- how to link together smaller programs to create one big program
+
+
+
+
+
+
+QUIZ 1 REFLECTION
+*****************
+
+I got questions 3, 4, 5, 6, 8 incorrect
+
+Correct Answers:
+
+3) A function's signature consists of the function's identifier, the function's parameters and ______________
+	Answer >> the order the parameter/argument list
+4) The following program passes apple in the main program by reference to function discount (...). Fill in the blanks.
+	Answer>> 	
+	
+		#include <iostream>
+		struct Item
+		{
+			int sku;
+			double price;
+		};
+		 
+		void discount(Item &ref)
+		{
+			ref.price *= 0.50;
+		}
+		 
+		int main()
+		{
+			Item apple = { 4664, 1.47 };
+			discount(apple);
+			std::cout << apple.sku << ": " << apple.price;
+		}
+5) Write a statement that declares an array of 6 pointers to floats in statically allocated memory
+	Answer >> float *arrayOne[6];
+6) Declare the type of xxx in the statement below (complete the first part of the statement)
+	Answer >> auto xxx = new double[n];
+8) Write a forward declaration of the struct Item defined in the program in question 4 above
+	Answer >> struct Item;	
