@@ -1,13 +1,12 @@
 # OOP244
 
 #### This is Y.P's repository for storing OOP244 Workshops, practice programs, and other material related to OOP244. 
-<br /><br />
+<br />
 The files within this repository are not intended to be shared with anyone 
-<br /><br />
+<br />
 The files contained in this repository contains code provided by professor in my class and code that I've written
-<br /><br />
+<br />
 **I do not give permission to anyone to copy, clone, duplicate, and or modify these files nor any of the code declared/defined within them!**
-<br /><br />
 <br /><br />
 This repository contains: 
 <br /><br />
