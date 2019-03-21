@@ -23,7 +23,7 @@ This repository contains:
 - Milestone 3
 - Milestone 4
 - Milestone 5
-<br /><br />
+
 <br />
 Regards,
 <br />
