@@ -1,41 +1,34 @@
 # OOP244
 
-<html>
-    <head>
-        <h5> 
-            This is Y.P's repository for storing OOP244 Workshops, practice programs, and other material related to OOP244. 
-        </h5>
-    </head>
-    </br>
-    <body>
-        <p1> The files within this repository are not intended to be shared with anyone </p1>
-        </br>
-        <p1> The files contained in this repository contains code provided by professor in my class and code that I've written </p1>
-        </br>
-        <p1> I DO NOT GIVE PERMISSION TO ANYONE TO COPY, CLONE, DUPLICATE, AND OR MODIFY THESE FILES NOR ANY OF THE CODE DECLARED/DEFINED WITHIN THEM! </p1>
-        </br>
-        </br>
-        <p2> This repository contains: </p2>
-        </br></br>
-        <ul>
-            <li> Workshop 1 </li>
-            <li> Workshop 2 </li>
-            <li> Workshop 3 </li>
-            <li> Workshop 4 </li>
-            <li> Workshop 5 </li>
-            <li> Workshop 6 </li>
-            <li> Workshop 7 </li>
-            <li> Workshop 8 </li>
-            <li> Workshop 9 </li>
-            </br>
-            <li> Milestone 1 </li>    
-            <li> Milestone 2 </li>  
-            <li> Milestone 3 </li>  
-            <li> Milestone 4 </li>  
-            <li> Milestone 5 </li>  
-        </ul>
-        </br></br>
-        <p2>Thanks, Y.P. </p2>
-    </body>
-</html>
+#### This is Y.P's repository for storing OOP244 Workshops, practice programs, and other material related to OOP244. 
+<br /><br />
+The files within this repository are not intended to be shared with anyone 
+<br /><br />
+The files contained in this repository contains code provided by professor in my class and code that I've written
+<br /><br />
+**I do not give permission to anyone to copy, clone, duplicate, and or modify these files nor any of the code declared/defined within them!**
+<br /><br />
+<br /><br />
+This repository contains: 
+<br /><br />
+* Workshop 1 
+* Workshop 2
+* Workshop 3
+* Workshop 4
+* Workshop 5
+* Workshop 6
+* Workshop 7
+* Workshop 8
+* Workshop 9
+- Milestone 1
+- Milestone 2
+- Milestone 3
+- Milestone 4
+- Milestone 5
+<br /><br />
+<br />
+Regards,
+<br />
+Yathavan Parameshwaran **(rivalDevYP)**
+
 
