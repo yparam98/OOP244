@@ -9,7 +9,6 @@ The files contained in this repository contains code provided by professor in my
 **I do not give permission to anyone to copy, clone, duplicate, and or modify these files nor any of the code declared/defined within them!**
 <br /><br />
 This repository contains: 
-<br /><br />
 * Workshop 1 
 * Workshop 2
 * Workshop 3
@@ -29,5 +28,3 @@ This repository contains:
 Regards,
 <br />
 Yathavan Parameshwaran **(rivalDevYP)**
-
-
